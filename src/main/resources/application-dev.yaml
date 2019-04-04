@@ -1,0 +1,13 @@
+#配置数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zy_crowd_funding?useSSL=false&serverTimezone=GMT
+    username: root
+    password: 123456
+
+  #配置jpa
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none

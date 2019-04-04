@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.124.23:3306/zy_crowd_funding_student3?useSSL=false&serverTimezone=GMT
+    username: student3
+    password: AcmwteRJ7rW^oSFJ
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+server:
+  port: 30300
+  servlet:
+    context-path: /student3_cf/api/v1/
