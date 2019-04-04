@@ -8,8 +8,12 @@ spring:
   jpa:
     hibernate:
       ddl-auto: none
+  redis:
+    host: 192.168.124.23
+    password: 123456
 
 server:
   port: 30300
   servlet:
     context-path: /student3_cf/api/v1/
+
